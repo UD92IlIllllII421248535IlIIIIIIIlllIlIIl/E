@@ -445,7 +445,7 @@ Tab:Button{
 end}
 
 local Tab = GUI:Tab{
-	Name = "Other fetures",
+	Name = "Other features",
 	Icon = "rbxassetid://7194280652"
 }
 
