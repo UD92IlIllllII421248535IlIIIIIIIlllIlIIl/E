@@ -1,7 +1,7 @@
 local keys = {
+    "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65254y83n24n30723450nXx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL",
     "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL",
-    "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL",
-    "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL"
+    "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$34785r3278565bv7346t5v$$@^#*$&*@#&^$AdminADIHUADILILLLL"
 }
 
 local counter = 1
@@ -14,7 +14,7 @@ for i,v in pairs(keys) do
     else
         if v == _G.Key then
             --Whitelisted!
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/.VIPnew.Lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/Rogue%20master%20gui.txt"))()
             keyCheck = _G.Key
             keys = ""
         else
