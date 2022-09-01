@@ -1,6 +1,6 @@
 local keys = {
-    "j@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^",
-    "j@^bHIBYl3SU4q65k^huTsfderhg423wtUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^",
+    "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL",
+    "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL",
     "IlllllIIIj@^bHIBYl3SU4q65k^huTUC7mkQS$ZKq#oi65Xx3NJ2LHUhzE^IIIIII@#*^&$$$$$$$$$$@^#*$&*@#&^$AdminADIHUADILILLLL"
 }
 
