@@ -500,9 +500,9 @@ local data = {
 ["content"] = "Detected user:",
 ["embeds"] = {
 {
-["title"] =  "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**".." with VIP GUI",
+["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: **"..webhookcheck.."**"..". GUI: VIP",
 ["type"] = "rich",
-["color"] = tonumber(0x7269da),
+["color"] = tonumber(0),
 ["image"] = {
 ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
 tostring(game:GetService("Players").LocalPlayer.Name)
