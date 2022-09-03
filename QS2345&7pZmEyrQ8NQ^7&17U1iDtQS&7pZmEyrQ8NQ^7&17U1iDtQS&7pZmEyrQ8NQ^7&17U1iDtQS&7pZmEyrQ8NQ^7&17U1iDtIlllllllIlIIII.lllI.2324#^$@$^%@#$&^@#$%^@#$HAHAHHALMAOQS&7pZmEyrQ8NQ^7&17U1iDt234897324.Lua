@@ -361,7 +361,7 @@ Tab:Button{
 
             GUI:Notification{
 	Title = "Alert",
-	Text = "Purchased.",
+	Text = "Loading...",
 	Duration = 2,
 	Callback = function() end 
                 
@@ -376,7 +376,7 @@ Tab:Button{
 
             GUI:Notification{
 	Title = "Alert",
-	Text = "Purchased.",
+	Text = "Loading...",
 	Duration = 2,
 	Callback = function() end 
                 
@@ -391,7 +391,7 @@ Tab:Button{
 
             GUI:Notification{
 	Title = "Alert",
-	Text = "Purchased.",
+	Text = "Loading...",
 	Duration = 2,
 	Callback = function() end 
                 
@@ -406,7 +406,7 @@ Tab:Button{
 
             GUI:Notification{
 	Title = "Alert",
-	Text = "Purchased.",
+	Text = "Loading...",
 	Duration = 2,
 	Callback = function() end 
                 
