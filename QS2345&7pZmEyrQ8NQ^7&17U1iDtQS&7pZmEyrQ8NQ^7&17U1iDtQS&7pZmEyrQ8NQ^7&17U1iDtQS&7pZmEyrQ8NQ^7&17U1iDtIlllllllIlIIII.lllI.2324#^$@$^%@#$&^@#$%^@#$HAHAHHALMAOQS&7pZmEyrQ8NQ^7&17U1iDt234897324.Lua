@@ -483,7 +483,7 @@ end)
 GUI:Notification{
 	Title = "Alert",
 	Text = "Anti cheat bypassed loaded!",
-	Duration = 2,
+	Duration = 4,
 	Callback = function() end 
                 
             }
