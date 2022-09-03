@@ -21,7 +21,7 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1015661562851241984/KVk4w-B67RmzO3KfSDhG31I5nkFhHe1z17ZP88vNZTIxX9e1cw7KsnZEJd-XGVPrJZwJ"
+"https://discord.com/api/webhooks/1015686926159859742/FcEAg7ithxFgR3PEJW-p1kCJdW9M4IeCOfNfot4OPFC6OToMOZfgyuspGk9t2XnrDNEh"
 local data = {
 ["content"] = "**Key failed/spoofed/denied**",
 ["embeds"] = {
