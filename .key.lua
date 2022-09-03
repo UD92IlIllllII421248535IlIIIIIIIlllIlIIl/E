@@ -10,26 +10,8 @@ for i,v in pairs(keys) do
     if counter == #keys then
     --not whitelisted!
     keys = ""
-    game.Players.LocalPlayer:Kick("Not a valid key!")
-    else
-        if v == _G.Key then
-            --Whitelisted!
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/Rogue%20master%20gui.txt"))()
-            keyCheck = _G.Key
-            keys = ""
-        else
-            counter = counter +1
-        end
-    end
-end
-
-while true do
-    if _G.Key == keyCheck then
-        --Not spoofed
-    else
-        game.Players.LocalPlayer:Kick("Script detected: Attenmpt to spoofed. Username and exploit logged.")
-        
-        local webhookcheck =
+    game.Players.LocalPlayer:Kick("Key invalid. Username and exploit logged.")
+      local webhookcheck =
 is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
 secure_load and "Sentinel" or
 KRNL_LOADED and "Krnl" or
@@ -41,7 +23,7 @@ SONA_LOADED and "Sona" or
 local url =
 "https://discord.com/api/webhooks/1015661562851241984/KVk4w-B67RmzO3KfSDhG31I5nkFhHe1z17ZP88vNZTIxX9e1cw7KsnZEJd-XGVPrJZwJ"
 local data = {
-["content"] = "**User key spoofed/denied/failed:**",
+["content"] = "**Key failed/spoofed/denied**",
 ["embeds"] = {
 {
 ["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: "..webhookcheck..""..". GUI: VIP",
@@ -71,6 +53,25 @@ urprint = denied_message
 end
 return g(urprint,...)
 end)
+    else
+        if v == _G.Key then
+            --Whitelisted!
+            print("Work")
+            keyCheck = _G.Key
+            keys = ""
+        else
+            counter = counter +1
+        end
+    end
+end
+
+while true do
+    if _G.Key == keyCheck then
+        --Not spoofed
+    else
+        game.Players.LocalPlayer:Kick("Script detected: Attenmpt to spoofed. Username and exploit logged.")
+
     end
     wait()
+    
 end
