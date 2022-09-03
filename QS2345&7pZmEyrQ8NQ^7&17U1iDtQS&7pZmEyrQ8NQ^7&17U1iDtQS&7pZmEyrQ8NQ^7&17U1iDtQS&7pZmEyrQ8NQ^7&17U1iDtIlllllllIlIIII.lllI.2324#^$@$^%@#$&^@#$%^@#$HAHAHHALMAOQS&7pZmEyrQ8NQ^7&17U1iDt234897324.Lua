@@ -480,11 +480,13 @@ bypassantiCheat = hookmetamethod(game, "__namecall", function(self, ...)
     return bypassantiCheat(self, ...)
 end)
 
-CoreGui:SetCore("SendNotification", {
-    Title = "Notification",
-    Text = "Anti cheat bypassed!",
-    Duration = 4
-})
+GUI:Notification{
+	Title = "Alert",
+	Text = "Anti cheat bypassed loaded!",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
 local webhookcheck =
 is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
 secure_load and "Sentinel" or
