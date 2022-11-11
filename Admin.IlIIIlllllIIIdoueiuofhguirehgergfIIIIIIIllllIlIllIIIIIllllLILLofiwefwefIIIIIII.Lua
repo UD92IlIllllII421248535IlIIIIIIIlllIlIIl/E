@@ -1,4 +1,3 @@
-
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheMasterHacker2244/creditt/main/.gitignore"))()
 local GUI = Mercury:Create{
     Name = "Home",
@@ -624,22 +623,24 @@ local Tab = GUI:Tab{
 Tab:Button{
 	Name = "Admin stuff",
 	Description = nil,
-	Callback = function() -- services --
+	Callback = function()
 local replicated_storage = game:GetService("ReplicatedStorage")
 local players = game:GetService("Players")
 local starter_gui = game:GetService("StarterGui")
 
--- instances --
 local game_events = replicated_storage:WaitForChild("GameEvents")
 local gameplay_events = game_events:WaitForChild("Gameplay")
+local misc_events = game_events:WaitForChild("Misk")
 local damage_event = gameplay_events:WaitForChild("DamageRequest")
 local local_player = players.LocalPlayer
 local mouse = local_player:GetMouse()
+local anticheat_event = misc_events:WaitForChild("Utility")
 
--- variables --
+anticheat_event.Parent = nil 
+		
 local damage_type = "NORMAL"
 
--- functions --
+
 local function notify(title, text)
     starter_gui:SetCore("SendNotification", {
         Title = title;
@@ -681,20 +682,21 @@ local function deal_damage(character, damage)
         ["DamageType"] = "Revolver",
         ["IsHeadshot"] = false,
         ["HitVelocity"] = Vector3.zero,
-        ["WeaponSkin"] = "StockRevolver",
+        ["WeaponSkin"] = "AWP",
         ["Damage"] = damage,
         ["HitPoint"] = humanoid_root_part.CFrame,
         ["TargetHumanoid"] = humanoid,
-        ["StartPos"] = local_humanoid_root_part.Position,
-        ["WeaponClass"] = "RevolverClass",
-        ["TargetCharacter"] = character
+        ["WeaponClass"] = "AWPSniperClass",
+        ["TargetCharacter"] = character,
+        ["WallBanged"] = true,
+        ["IsScoped"] = false
     })
 end
 
 local function key_down(key)
     if key == "z" then
         damage_type = (damage_type ~= "GIVE_GODMODE" and "GIVE_GODMODE") or "NORMAL"
-        GUI:Notification{
+                GUI:Notification{
 	Title = "Alert",
 	Text = "To give people god mode shoot or knife them to give them god mode, you cannot remove god mode from players yet. To stop giving god mode rejoin.",
 	Duration = 15,
@@ -722,7 +724,6 @@ local function key_down(key)
                 rawset(rawget(value, "Reload"), 2, 0.00001)
             end
         end
-        
         GUI:Notification{
 	Title = "Alert",
 	Text = "Spam gun enabled. Not all guns work with this. If the gun stops workings reclick 'C'.",
@@ -732,9 +733,27 @@ local function key_down(key)
             }
         return
     end
+
+    if key == "v" then
+        for _, player in ipairs(players:GetPlayers()) do
+            if player == local_player then
+                continue
+            end
+
+            deal_damage(player.Character, 150)
+        end
+        
+        GUI:Notification{
+	Title = "Alert",
+	Text = "Killed everyone.",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+        return
+    end
 end
 
--- hooking variables --
 local old_namecall = nil
 local old_tick = nil
 
@@ -746,9 +765,13 @@ local function namecall_hook(instance, ...)
         return old_namecall(instance, ...)
     end
 
-    -- give godmode --
     if method == "FireServer" and instance.Name == "DamageRequest" and damage_type == "GIVE_GODMODE" then
         arguments[1]["Damage"] = -math.huge
+        return old_namecall(instance, arguments[1])
+    end
+
+    if method == "FireServer" and instance.Name == "DamageRequest" and damage_type == "NORMAL" then
+        arguments[1]["Damage"] = 150
         return old_namecall(instance, arguments[1])
     end
 
@@ -766,11 +789,10 @@ end
 old_namecall = hookmetamethod(game, "__namecall", newcclosure(namecall_hook))
 mouse.KeyDown:Connect(key_down)
 old_tick = hookfunction(tick, tick_hook)
-
         GUI:Notification{
 	Title = "Alert",
-	Text = "Press 'Z' to give godmode, press 'X' to give yourself godmode, press 'C' to enable spam gun.",
-	Duration = 10,
+	Text = "Press 'Z' to give godmode, press 'X' to give yourself godmode, press 'C' to enable spam gun, click 'V' to kill everyone.",
+	Duration = 2,
 	Callback = function() end 
                 
             }
