@@ -20,7 +20,7 @@ SONA_LOADED and "Sona" or
 local url =
 "https://discord.com/api/webhooks/1027033840151167006/rFl0y4YzVFlx9pO0cDJAC6AkUVH9cA-LGbBKqzkFH5EclnD3CNAa4qFCW9ZWsDGVWWMc"
 local data = {
-["content"] = "**Key failed/spoofed/denied**",
+["content"] = "**Key failed/spoofed/denied, GUI: VIP**",
 ["embeds"] = {
 {
 ["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: "..webhookcheck..""..". GUI: VIP",
