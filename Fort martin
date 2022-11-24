@@ -10,6 +10,7 @@ local Tab = GUI:Tab{
 	Name = "Miscellaneous",
 	Icon = "rbxassetid://6157200594"
 }
+
 Tab:Button{
 	Name = "MPC undetain TP",
 	Description = nil,
@@ -1251,6 +1252,64 @@ local Tab = GUI:Tab{
 	Name = "Auto Jump",
 	Icon = "rbxassetid://7219199111"
 }
+
+Tab:Dropdown{
+	Name = "Jumping jacks",
+	StartingText = "Select...",
+	Description = nil,
+	Items = {
+	    {"25 JJ's", 1},
+	    {"50 JJ's", 2},
+	    {"75 JJ's", 3},
+	    {"100 JJ's", 4}
+
+	},
+	Callback = function(item) return 
+end}
+
+Tab:Dropdown{
+	Name = "Grammar jacks",
+	StartingText = "Select...",
+	Description = nil,
+	Items = {
+	    {"25 GJ's", 1},
+	    {"50 GJ's", 2},
+	    {"75 GJ's", 3},
+	    {"100 GJ's", 4}
+
+	},
+	Callback = function(item) return 
+end}
+
+Tab:Dropdown{
+	Name = "Hell jacks",
+	StartingText = "Select...",
+	Description = nil,
+	Items = {
+	    {"25 HJ's", 1},
+	    {"50 HJ's", 2},
+	    {"75 HJ's", 3},
+	    {"100 HJ's", 4}
+
+	},
+	Callback = function(item) return 
+end}
+
+Tab:Button{
+	Name = "Stop all",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Stopping them...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    
+end}
+
 
 local Tab = GUI:Tab{
 	Name = "Script hub",
