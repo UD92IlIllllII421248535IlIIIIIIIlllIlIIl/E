@@ -1203,7 +1203,7 @@ Tab:Button{
 end}
 
 Tab:Button{
-	Name = "Undergrown tunnel",
+	Name = "Undergrown tunnel civlian",
 	Description = nil,
 	Callback = function() local CoreGui = game:GetService("StarterGui")
 
@@ -1215,6 +1215,36 @@ Tab:Button{
                 
             }
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(172.857773, -8.10354042, 214.540146, 0.00442328211, 5.67852831e-09, -0.999990225, 1.05739257e-08, 1, 5.72535575e-09, 0.999990225, -1.05991473e-08, 0.00442328211)
+end}
+
+Tab:Button{
+	Name = "Main undergrown tunnel",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Teleporting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-140.920547, -26.7417831, 1392.25342, -0.0302737169, -6.24658867e-08, -0.99954164, -5.75290429e-08, 1, -6.07521145e-08, 0.99954164, 5.56634809e-08, -0.0302737169)
+end}
+
+Tab:Button{
+	Name = "Secret room",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "Teleporting...",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(517.535889, 11.9813147, -879.517883, -0.708056808, -1.70877392e-08, -0.706155479, -1.09872937e-08, 1, -1.31813902e-08, 0.706155479, -1.57443547e-09, -0.708056808)
 end}
 
 local Tab = GUI:Tab{
