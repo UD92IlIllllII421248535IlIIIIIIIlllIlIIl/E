@@ -660,6 +660,48 @@ end
 end}
 
 
+Tab:Button{
+	Name = "Icon Mobile",
+	Description = nil,
+	Callback = function() 
+	    local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "You are now Mobile.",
+	Duration = 8,
+	Callback = function() end
+}
+
+local args = {
+    [1] = "Mobile"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.SetPlatform:InvokeServer(unpack(args))
+
+end}
+
+Tab:Button{
+	Name = "Icon Desktop/PC",
+	Description = nil,
+	Callback = function() 
+	    local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "You are now Desktop/PC.",
+	Duration = 8,
+	Callback = function() end
+}
+
+local args = {
+    [1] = "PC"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.SetPlatform:InvokeServer(unpack(args))
+
+end}
+
 local Tab = GUI:Tab{
 	Name = "TP places",
 	Icon = "rbxassetid://7199724739"
