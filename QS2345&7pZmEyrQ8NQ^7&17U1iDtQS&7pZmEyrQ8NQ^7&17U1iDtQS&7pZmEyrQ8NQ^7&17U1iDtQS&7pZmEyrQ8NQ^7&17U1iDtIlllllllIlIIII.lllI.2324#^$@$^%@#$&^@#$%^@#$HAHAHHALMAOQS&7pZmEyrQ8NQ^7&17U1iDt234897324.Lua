@@ -1,5 +1,5 @@
 
-local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheMasterHacker2244/creditt/main/.gitignore"))()
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/Scriptrunn/main/.gitignore"))()
 local GUI = Mercury:Create{
     Name = "Home",
     Size = UDim2.fromOffset(600, 400),
