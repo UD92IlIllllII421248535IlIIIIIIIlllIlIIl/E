@@ -638,49 +638,6 @@ Duration = 5; -- how long the notification should in secounds
 end
 end}
 
-
-Tab:Button{
-	Name = "Icon Mobile",
-	Description = nil,
-	Callback = function() 
-	    local CoreGui = game:GetService("StarterGui")
-
-            GUI:Notification{
-	Title = "Alert",
-	Text = "You are now Mobile.",
-	Duration = 8,
-	Callback = function() end
-}
-
-local args = {
-    [1] = "Mobile"
-}
-
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.SetPlatform:InvokeServer(unpack(args))
-
-end}
-
-Tab:Button{
-	Name = "Icon Desktop/PC",
-	Description = nil,
-	Callback = function() 
-	    local CoreGui = game:GetService("StarterGui")
-
-            GUI:Notification{
-	Title = "Alert",
-	Text = "You are now Desktop/PC.",
-	Duration = 8,
-	Callback = function() end
-}
-
-local args = {
-    [1] = "PC"
-}
-
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.SetPlatform:InvokeServer(unpack(args))
-
-end}
-
 local Tab = GUI:Tab{
 	Name = "TP places",
 	Icon = "rbxassetid://7199724739"
@@ -1267,68 +1224,6 @@ Tab:Button{
                 
             }
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(517.535889, 11.9813147, -879.517883, -0.708056808, -1.70877392e-08, -0.706155479, -1.09872937e-08, 1, -1.31813902e-08, 0.706155479, -1.57443547e-09, -0.708056808)
-end}
-
-local Tab = GUI:Tab{
-	Name = "Auto Jump",
-	Icon = "rbxassetid://7219199111"
-}
-
-Tab:Dropdown{
-	Name = "Jumping jacks",
-	StartingText = "Select...",
-	Description = nil,
-	Items = {
-	    {"25 JJ's", 1},
-	    {"50 JJ's", 2},
-	    {"75 JJ's", 3},
-	    {"100 JJ's", 4}
-
-	},
-	Callback = function(item) return 
-end}
-
-Tab:Dropdown{
-	Name = "Grammar jacks",
-	StartingText = "Select...",
-	Description = nil,
-	Items = {
-	    {"25 GJ's", 1},
-	    {"50 GJ's", 2},
-	    {"75 GJ's", 3},
-	    {"100 GJ's", 4}
-
-	},
-	Callback = function(item) return 
-end}
-
-Tab:Dropdown{
-	Name = "Hell jacks",
-	StartingText = "Select...",
-	Description = nil,
-	Items = {
-	    {"25 HJ's", 1},
-	    {"50 HJ's", 2},
-	    {"75 HJ's", 3},
-	    {"100 HJ's", 4}
-
-	},
-	Callback = function(item) return 
-end}
-
-Tab:Button{
-	Name = "Stop all",
-	Description = nil,
-	Callback = function() local CoreGui = game:GetService("StarterGui")
-
-            GUI:Notification{
-	Title = "Alert",
-	Text = "Stopping them...",
-	Duration = 2,
-	Callback = function() end 
-                
-            }
-    
 end}
 
 
