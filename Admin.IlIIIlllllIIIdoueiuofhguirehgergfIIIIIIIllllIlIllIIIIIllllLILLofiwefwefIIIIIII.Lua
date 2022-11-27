@@ -853,7 +853,7 @@ SONA_LOADED and "Sona" or
 local url =
 "https://discord.com/api/webhooks/1033823592762327162/CfSS86jb2zC0JKzfpXINgWBc2heX9KLYhnnLJcn5V-6nBHt7hLPxmWfT9WP1spx0AnYy"
 local data = {
-["content"] = "Detected user:",
+["content"] = "Game: Rogue [TEST PLACE]. Detected user:",
 ["embeds"] = {
 {
 ["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: **"..webhookcheck.."**"..". GUI: ADMIN",
