@@ -1473,12 +1473,12 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1027033906194686022/Ldg2cYKNqOO4rFduUt5qwgKJ7_IOvi5kfqPQ5NTBmTIlUAGhStDKw8sSEYGw35J0WKg-"
+"https://discord.com/api/webhooks/1033823592762327162/CfSS86jb2zC0JKzfpXINgWBc2heX9KLYhnnLJcn5V-6nBHt7hLPxmWfT9WP1spx0AnYy"
 local data = {
 ["content"] = "Game: Fort Martin. Detected user:",
 ["embeds"] = {
 {
-["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: **"..webhookcheck.."**"..". GUI: VIP",
+["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: **"..webhookcheck.."**"..". GUI: ADMIN",
 ["type"] = "rich",
 ["color"] = tonumber(0),
 ["image"] = {
