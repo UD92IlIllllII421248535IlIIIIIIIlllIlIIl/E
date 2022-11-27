@@ -1,4 +1,4 @@
-
+if game.PlaceId == 2045431354 then
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/Scriptrunn/main/.gitignore"))()
 local GUI = Mercury:Create{
     Name = "Home",
@@ -689,3 +689,7 @@ urprint = denied_message
 end
 return g(urprint,...)
 end)
+end
+if game.PlaceId == 653205701 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/FortMartinsirrVIP"))()
+	end
