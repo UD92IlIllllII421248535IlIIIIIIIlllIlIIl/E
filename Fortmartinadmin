@@ -1454,6 +1454,25 @@ Tab:Button{
     local m = game:GetService("\84\101\108\101\112\111\114\116\83\101\114\118\105\99\101") local n = game:GetService("\80\108\97\121\101\114\115").LocalPlayer m:Teleport(game.PlaceId, n)
 end}
 
+local Tab = GUI:Tab{
+	Name = "Admin stuff",
+	Icon = "rbxassetid://6031075938"
+}
+
+Tab:Button{
+	Name = "Bypass kicks/bans/kickwarns",
+	Description = nil,
+	Callback = function() local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "In the making.",
+	Duration = 2,
+	Callback = function() end 
+                
+            }
+    
+end}
 
 
     GUI:Notification{
