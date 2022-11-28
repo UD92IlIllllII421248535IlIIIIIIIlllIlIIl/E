@@ -618,7 +618,7 @@ end}
 
 local Tab = GUI:Tab{
 	Name = "Admin hub",
-	Icon = "rbxassetid://7194280652"
+	Icon = "rbxassetid://6031075938"
 }
 
 Tab:Button{
