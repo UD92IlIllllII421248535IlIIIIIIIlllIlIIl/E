@@ -3,7 +3,7 @@ local GUI = Mercury:Create{
     Name = "Home",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
-    Link = "https://github.com/RogueMasterGUI/Regular-GUI"
+    Link = "https://github.com/RogueMasterGUI/VIP-GUI"
 }
 
 local Tab = GUI:Tab{
