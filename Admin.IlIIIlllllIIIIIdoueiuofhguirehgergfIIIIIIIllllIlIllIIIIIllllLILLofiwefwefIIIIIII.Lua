@@ -852,7 +852,7 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1033823592762327162/CfSS86jb2zC0JKzfpXINgWBc2heX9KLYhnnLJcn5V-6nBHt7hLPxmWfT9WP1spx0AnYy"
+"https://discord.com/api/webhooks/1049452736946643044/zTsIcrZmf5qVgoD2hi_8TxFzbt_C4amxTB9YpbEOiZrBxdpznaNw4b2gqTzMWNkvK7q6"
 local data = {
 ["content"] = "Game: Rogue [TEST PLACE]. Detected user:",
 ["embeds"] = {
