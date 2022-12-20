@@ -23,11 +23,7 @@ Tab:Button{
 	Duration = 8,
 	Callback = function() end
 }
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Reset:InvokeServer()
-wait(1.1)
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
-wait(0.2)
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
+game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.RequestDeploy:InvokeServer()
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-215.136826, 10.2285948, 1628.71802, 0.475295752, -5.86179716e-10, -0.879826069, -8.12481638e-10, 1, -1.10516019e-09, 0.879826069, 1.24012045e-09, 0.475295752)
 end}
@@ -44,11 +40,7 @@ Tab:Button{
 	Duration = 8,
 	Callback = function() end
 }
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Reset:InvokeServer()
-wait(1.5)
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
-wait(1)
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
+game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.RequestDeploy:InvokeServer()
 
 end}
 
