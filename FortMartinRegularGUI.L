@@ -23,11 +23,7 @@ Tab:Button{
 	Duration = 8,
 	Callback = function() end
 }
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Reset:InvokeServer()
-wait(1.5)
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
-wait(1)
-game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
+game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.RequestDeploy:InvokeServer()
 
 end}
 
