@@ -109,7 +109,7 @@ Tab:Button{
             GUI:Notification{
 	Title = "Alert",
 	Text = "Reseting...",
-	Duration = 8,
+	Duration = 3,
 	Callback = function() end
 }
 if not _G.ini then
