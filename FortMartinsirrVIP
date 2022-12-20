@@ -81,6 +81,21 @@ Tab:Button{
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/FortMartinGodmode"))(' Watermelon ?')
 end}
 Tab:Button{
+	Name = "Take damage [trolling]",
+	Description = nil,
+	Callback = function() 
+	    local CoreGui = game:GetService("StarterGui")
+
+            GUI:Notification{
+	Title = "Alert",
+	Text = "If at full health you can click the *Take damage* 4 times without dying.",
+	Duration = 8,
+	Callback = function() end
+}
+local args = {
+    [1] = 0.2
+}
+Tab:Button{
 	Name = "Unanchored Parts (For trolling)",
 	Description = nil,
 	Callback = function() 
