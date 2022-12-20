@@ -23,7 +23,18 @@ Tab:Button{
 	Duration = 8,
 	Callback = function() end
 }
+local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.SkydivingService.RF.FallDamage:InvokeServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.Respawn:InvokeServer()
+
+wait(0.1)
 game:GetService("ReplicatedStorage").Packages.Knit.Services.PlayerHandler.RF.RequestDeploy:InvokeServer()
+
+
 
 end}
 
