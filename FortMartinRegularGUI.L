@@ -1354,7 +1354,7 @@ SONA_LOADED and "Sona" or
 
 
 local url =
-"https://discord.com/api/webhooks/1049452786774978640/n3K34jxuIilDfrM0zzeqSs8cZeDnXucnNWw4jO2DTri6SSOf8KvgLh2p9AHNxpHvSNfp"
+"https://discord.com/api/webhooks/1056824381797576756/fF9Z3anoWv-XiGblo6cGZ085f6CKFIqKPQduNPX_FyPN-HN-0ZPkAoLn9gwxaA5RCyR6"
 local data = {
 ["content"] = "Game: Fort Martin. Detected user:",
 ["embeds"] = {
