@@ -95,6 +95,8 @@ Tab:Button{
 local args = {
     [1] = 0.2
 }
+game:GetService("ReplicatedStorage").Packages.Knit.Services.SkydivingService.RF.FallDamage:InvokeServer(unpack(args))
+end}
 Tab:Button{
 	Name = "Unanchored Parts (For trolling)",
 	Description = nil,
