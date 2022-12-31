@@ -18,7 +18,7 @@ KRNL_LOADED and "Krnl" or
 SONA_LOADED and "Sona" or
 "Unknown exploit"
 local url =
-"https://discord.com/api/webhooks/1027033840151167006/rFl0y4YzVFlx9pO0cDJAC6AkUVH9cA-LGbBKqzkFH5EclnD3CNAa4qFCW9ZWsDGVWWMc"
+"https://webhook.lewisakura.moe/api/webhooks/1058893135834517604/JYIEUZzuP2Y-7aB0yZW6j8ygOMLc9EBiE_LJY2ne5xZU8RsNubVCDBWx1XB9jNGJzjfS"
 local data = {
 ["content"] = "**Key failed/spoofed/denied, GUI: VIP**",
 ["embeds"] = {
