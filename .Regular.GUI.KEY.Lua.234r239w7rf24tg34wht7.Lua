@@ -23,7 +23,7 @@ local data = {
 ["content"] = "**Key failed/spoofed/denied, GUI: Regular**",
 ["embeds"] = {
 {
-["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: "..webhookcheck..""..". GUI: VIP",
+["title"] =  "Username: " .. game.Players.LocalPlayer.Name..". Exploit: "..webhookcheck..""..". GUI: Regular",
 ["type"] = "rich",
 ["color"] = tonumber(0),
 ["image"] = {
